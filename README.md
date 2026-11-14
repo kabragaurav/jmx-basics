@@ -22,3 +22,10 @@ But generally it is not, because interface defines the methods that will be expo
 ![](./assets/imgs/5.png)
 ![](./assets/imgs/6.png)
 
+If we remove the `setAge` method from the interface, then the `setAge` method in the class will not be exposed for management operations (even though it is present in the class).
+And hence, `age` will not be modifiable from the JConsole.
+
+![](./assets/imgs/7.png)
+
+
+
